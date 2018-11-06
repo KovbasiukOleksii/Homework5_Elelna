@@ -14,12 +14,14 @@ div {
 }
 header {
     background: url(img/hederfont.jpg) no-repeat center top / cover;
-    height: 600px;
+    width: 100%;
+    height: 800px;
     text-align: center;
     font-weight: bold;
 }
 .logo {
-    margin: 70px 0 50px 0; 
+    margin: 0;
+    padding: 70px 0 50px 0; 
 }
 a {
     text-decoration: none;
@@ -35,14 +37,14 @@ a {
 }
 .menu li a {
     color: #fff;
-    margin-left: 15px;
+    padding-left: 15px;
 }
 .menu li a:hover {
     color: blue;
-    transition: 1s;
+    transition: 0.5s;
 }
 .good_day_text {
-    margin-top: 80px;
+    margin-top: 70px;
     color: #fff;
     font-size: 60px;
 }
@@ -66,9 +68,10 @@ a {
 }
 .section_one {
     margin: 0;
-    padding: 30px 0 30px 0;
+    padding: 0 0 30px 0;
     height: 250px;
     background: #eeeeef;
+    text-align: center;
 }
 .icon_content {
     width: 35px;
@@ -81,13 +84,15 @@ a {
     height: 35px;
 }
 .services_item {
+    display: inline-block;
     width: 100%;
     max-width: 200px;
     text-align: center;
-    float: left;
 }
-.services_item:last-child {
-    float: right;
+@media (max-width:700px) { 
+    .services_item {  
+     width: 130px;     
+    }   
 }
 .services_item p {
     color: #888a8f;
@@ -96,7 +101,8 @@ a {
 }
 
 .services_item:nth-child(2) {
-     margin-left: 50px;
+    margin-left: 45px;
+    margin-right: 45px; 
 }
 .section_two {
     margin: 0;
