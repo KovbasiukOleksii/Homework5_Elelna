@@ -15,7 +15,6 @@ div {
 header {
     background: url(img/hederfont.jpg) no-repeat center top / cover;
     width: 100%;
-    height: auto;
     text-align: center;
     font-weight: bold;
 }
@@ -69,7 +68,6 @@ a {
 .section_one {
     margin: 0;
     padding: 0;
-    height: auto;
     background: #eeeeef;
     text-align: center;
 }
@@ -86,7 +84,7 @@ a {
 .services_item {
     display: inline-block;
     width: 100%;
-    max-width: 200px;
+    max-width: 230px;
     text-align: center;
 }
 @media (max-width:700px) { 
@@ -101,13 +99,11 @@ a {
 }
 
 .services_item:nth-child(2) {
-    margin-left: 45px;
-    margin-right: 45px; 
+    margin: auto; 
 }
 .section_two {
     margin: 0;
     padding: 0;
-    height: auto;
     background: #fff;
     text-align: center;
 }
@@ -163,7 +159,6 @@ a {
 .section_three {
     margin: 0;
     padding: 30px 0 30px 0;
-    height: auto;
     background: #eeeeef;
     text-align: left;
 }
@@ -179,7 +174,6 @@ a {
 .section_foure {
     margin: 0;
     padding: 30px 0 30px 0;
-    height: auto;
     background: #fff;
     text-align: center;
 }
@@ -202,7 +196,6 @@ a {
 .section_five {
     margin: 0;
     padding: 30px 0 30px 0;
-    height: auto;
     background: #eeeeef;
     text-align: center;
 }
@@ -250,14 +243,12 @@ a {
     .press img {
         margin: 0;
         float: none;
-        text-align: center;
     }
 }
 .section_seven {
     border: 0;
     margin: 0;
     padding: 0;
-    height: auto;
     background: #50c3af;
     text-align: center;
 }
